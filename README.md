@@ -138,7 +138,7 @@
 
 ## Continuous Image Modelling
 
-### Feature Prediction
+### Diffusion
 
 | Publication Date | Method Abbreviation | Full Title                                                                                                   | arXiv Link                                | Code Repository                                    |
 | ---------------- | ------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------- | -------------------------------------------------- |
@@ -149,7 +149,7 @@
 | 24/12            | CausalFusion        | Causal Diffusion Transformers for Generative Modeling                                                        | [arXiv](https://arxiv.org/abs/2412.12095) |                                                    |
 | 24/12            | LLaMAFusion         | LlamaFusion: Adapting Pretrained Language Models for Multimodal Generation                                   | [arXiv](https://arxiv.org/abs/2412.15188) |                                                    |
 
-### Condition Prediction
+### AR+Diffusion
 
 | Publication Date | Method Abbreviation | Full Title                                                                            | arXiv Link                                | Code Repository |
 | ---------------- | ------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------- | --------------- |
