@@ -1,5 +1,32 @@
 # Native Multimodal Models for Vision Language Understanding and Generation
 
+<div align="center">
+
+[Chunjiang Ge](https://john-ge.github.io/)
+
+</div>
+
+<p align="center">
+    <!-- <a href="http://arxiv.org/abs/2405.15738"> 
+        <img src="https://img.shields.io/badge/arXiv-2405.15738-b31b1b.svg?logo=arXiv">
+    </a>
+    <a href="https://huggingface.co/collections/ConvLLaVA/convllava-66519ef0ccdee62544bd19bf"> 
+        <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-ffd21e">
+    </a>
+    <a href="https://modelscope.cn/organization/ConvLLaVA?tab=model"> 
+        <img src="https://img.shields.io/badge/🤖%20ModelScope-Models-5f4cf2.svg">
+    </a>
+    <a href="https://wisemodel.cn/organization/ConvLLaVA"> 
+        <img src="https://img.shields.io/badge/WiseModel-Models-571282.svg">
+    </a> -->
+    <a href="https://github.com/John-Ge/Awesome-Native-Multimodal-Models/tree/main/assets/wechat.png"> 
+        <img src="https://img.shields.io/badge/Group-WeChat-5ef27f.svg">
+    </a>
+    <a href="https://github.com/John-Ge/Awesome-Native-Multimodal-Models/stargazers">
+        <img alt="GitHub stars" src="https://img.shields.io/github/stars/John-Ge/Awesome-Native-Multimodal-Models?color=ccf" />
+    </a>
+</p>
+
 ## Introduction
 
 <p style="text-align: justify;">The unification of different deep learning architectures and tasks has reshaped various fields. The standardization of natural language processing via Large Language Models have revenlotionized NLP. This progress raises a critical question: <strong>Can we seamlessly integrate vision and language understanding with generation?</strong> Emerging native multimodal models like Gemini and GPT-4o demonstrate early successes in bridging these capabilities. While architectures for LLMs and vision-language models (e.g., LLaVA, Qwen-VL) show signs of convergence, vision generation remains fragmented across three paradigms: discrete autoregressive models, continuous diffusion models, and flow matching. This divergence highlights fundamental challenges in unifying multimodal understanding and generation. We systematically analyze existing approaches to identify optimal pathways for building truly unified multimodal architectures. We categoried these unified models into three approaches via the visual generation method: visual generation through external generator, discrete and continuous modeling.</p>
