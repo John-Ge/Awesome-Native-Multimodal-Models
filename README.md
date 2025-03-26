@@ -2,18 +2,16 @@
 
 ## Introduction
 
-The unification of different deep learning architectures and tasks has reshaped various fields. The standardization of natural language processing via Large Language Models have revenlotionized NLP. This progress raises a critical question: **Can we seamlessly integrate vision and language understanding with generation?** Emerging native multimodal models like Gemini and GPT-4o demonstrate early successes in bridging these capabilities. While architectures for LLMs and vision-language models (e.g., LLaVA, Qwen-VL) show signs of convergence, vision generation remains fragmented across three paradigms: discrete autoregressive models, continuous diffusion models, and flow matching. This divergence highlights fundamental challenges in unifying multimodal understanding and generation. We systematically analyze existing approaches to identify optimal pathways for building truly unified multimodal architectures. We categoried these unified models into three approaches via the visual generation method: visual generation through external generator, discrete and continuous modeling.
+<p style="text-align: justify;">The unification of different deep learning architectures and tasks has reshaped various fields. The standardization of natural language processing via Large Language Models have revenlotionized NLP. This progress raises a critical question: **Can we seamlessly integrate vision and language understanding with generation?** Emerging native multimodal models like Gemini and GPT-4o demonstrate early successes in bridging these capabilities. While architectures for LLMs and vision-language models (e.g., LLaVA, Qwen-VL) show signs of convergence, vision generation remains fragmented across three paradigms: discrete autoregressive models, continuous diffusion models, and flow matching. This divergence highlights fundamental challenges in unifying multimodal understanding and generation. We systematically analyze existing approaches to identify optimal pathways for building truly unified multimodal architectures. We categoried these unified models into three approaches via the visual generation method: visual generation through external generator, discrete and continuous modeling.</p>
 
 <div style="text-align: center;">
     <img src="assets/treeplot.png" alt="Tree Plot">
     <p style="font-size: 14px;">Taxonomy of Unified Models</p>
 </div>
 
-
 ## Benchmark Results
 
 ### Understanding
-
 
 | Model         | Params | POPE | MME-P  | MMB_dev | SEED | VQAv2 | GQA   | MMMU | MM-Vet | TextVQA | MMStar |
 | ------------- | ------ | ---- | ------ | ------- | ---- | ----- | ----- | ---- | ------ | ------- | ------ |
@@ -37,9 +35,7 @@ The unification of different deep learning architectures and tasks has reshaped 
 | MUSE-VL       | 7B     | -    | 1480.9 | 72.1    | 70.0 | -     | -     | 42.3 | -      | -       | 48.3   |
 | MUSE-VL       | 32B    | -    | 1581.6 | 81.8    | 71.0 | -     | -     | 50.1 | -      | -       | 56.7   |
 
-
 ### MJHQ-30K
-
 
 | Method          | Resolution | Params | #Images | FID   |
 | --------------- | ---------- | ------ | ------- | ----- |
@@ -54,9 +50,7 @@ The unification of different deep learning architectures and tasks has reshaped 
 | JanusFlow       |            | 1.3B   | -       | 9.51  |
 | Liquid          | 512        | 7B     | 30M     | 5.47  |
 
-
 ### GenEval Bench
-
 
 | Model                | Params | Res. | Single Obj. | Two Obj. | Count. | Colors | Position | Color Attri. | Overall↑ |
 | -------------------- | ------ | ---- | ----------- | -------- | ------ | ------ | -------- | ------------ | -------- |
@@ -83,12 +77,12 @@ The unification of different deep learning architectures and tasks has reshaped 
 
 ## Image Tokenizer
 
-### VQGAN Encoder
+### Reconstructive Encoder
 
 | Publication Date | Method Abbreviation | Full Title                                                                                   | arXiv Link                                | Code Repository                                                              |
 | ---------------- | ------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------- | ---------------------------------------------------------------------------- |
 | 17/11            | VQ-VAE              | Neural Discrete Representation Learning                                                      | [arXiv](https://arxiv.org/pdf/1711.00937) |                                                                              |
-| 20/12            | VQGAN               | Taming Transformers for High-Resolution Image Synthesis                                      | [arXiv](https://arxiv.org/abs/2012.09841) | [GitHub](https://github.com/CompVis/taming-transformers)                     | 
+| 20/12            | VQGAN               | Taming Transformers for High-Resolution Image Synthesis                                      | [arXiv](https://arxiv.org/abs/2012.09841) | [GitHub](https://github.com/CompVis/taming-transformers)                     |
 | 21/10            | ViT-VQGAN           | VECTOR-QUANTIZED IMAGE MODELING WITH IMPROVED VQGAN                                          | [arXiv](https://arxiv.org/pdf/2110.04627) |                                                                              |
 | 22/03            | RQ-VAE              | Autoregressive Image Generation using Residual Quantization                                  | [arXiv](https://arxiv.org/pdf/2203.01941) | [GitHub](https://github.com/kakaobrain/rq-vae-transformer)                   |
 | 22/09            | MoVQ                | MoVQ: Modulating Quantized Vectors for High-Fidelity Image Generation                        | [arXiv](https://arxiv.org/pdf/2209.09002) |                                                                              |
@@ -114,7 +108,8 @@ The unification of different deep learning architectures and tasks has reshaped 
 | 24/12            | ViLex               | Visual Lexicon: Rich Image Features in Language Space                                                          | [arXiv](https://arxiv.org/abs/2412.06774) |                                                    |
 | 25/03            | V2Flow              | V2Flow: Unifying Visual Tokenization and Large Language Model Vocabularies for Autoregressive Image Generation | [arXiv](https://arxiv.org/abs/2503.07493) | [GitHub](https://github.com/zhangguiwei610/V2Flow) |
 
-### Semantic And Reconstructed Encoder
+### Semantic And Reconstructive Encoder
+
 | Publication Date | Method Abbreviation | Full Title                                                                                                                | arXiv Link                                | Code Repository                                                 |
 | ---------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------- |
 | 24/06            | BSQ-ViT             | Image and Video Tokenization with Binary Spherical Quantization                                                           | [arXiv](https://arxiv.org/abs/2406.07548) | [GitHub](https://github.com/zhaoyue-zephyrus/bsq-vit)           |
@@ -192,7 +187,7 @@ The unification of different deep learning architectures and tasks has reshaped 
 | 24/12            | Liquid              | Liquid: Language Models are Scalable Multi-modal Generators                                               | [arXiv](https://arxiv.org/abs/2412.04332)    |                                                                |
 | 24/12            | SynerGen-VL         | SynerGen-VL: Towards Synergistic Image Understanding and Generation with Vision Experts and Token Folding | [arXiv](https://arxiv.org/abs/2412.09604)    |                                                                |
 
-### Semantic Encoder
+### Semantic Encoders
 
 | Publication Date | Method Abbreviation | Full Title                                                                                             | arXiv Link                                | Code Repository                                      |
 | ---------------- | ------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------- | ---------------------------------------------------- |
