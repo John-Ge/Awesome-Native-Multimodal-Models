@@ -1,5 +1,13 @@
-# Unified Models for Vision Language Understanding and Generation
+# Native Multimodal Models for Vision Language Understanding and Generation
 
+## Introduction
+
+The unification of different deep learning architectures and tasks has reshaped various fields. The standardization of natural language processing via Large Language Models have revenlotionized NLP. This progress raises a critical question: **Can we seamlessly integrate vision and language understanding with generation?** Emerging native multimodal models like Gemini and GPT-4o demonstrate early successes in bridging these capabilities. While architectures for LLMs and vision-language models (e.g., LLaVA, Qwen-VL) show signs of convergence, vision generation remains fragmented across three paradigms: discrete autoregressive models, continuous diffusion models, and flow matching. This divergence highlights fundamental challenges in unifying multimodal understanding and generation. We systematically analyze existing approaches to identify optimal pathways for building truly unified multimodal architectures. We categoried these unified models into three approaches via the visual generation method: visual generation through external generator, discrete and continuous modeling.
+
+<div style="text-align: center;">
+    <img src="assets/treeplot.png" alt="Tree Plot">
+    <p style="font-size: 14px;">Taxonomy of Unified Models</p>
+</div>
 
 
 ## Benchmark Results
