@@ -81,6 +81,7 @@
 | Chameleon      | 30B    | -    | 575.3  | 32.5    | 48.5 | -     | -     | 38.8 | -      | -       | 31.8   |
 | Video-LaVIT    | 7B     | -    | 1551.8 | 67.3    | 64.0 | -     | -     | -    | -      | -       | -      |
 | Show-o         | 1.3B   | 84.5 | 1232.9 | -       | -    | 74.7  | 61.0  | 27.4 | -      | -       | -      |
+| HermesFlow     | 1.3B   | 81.4 | 1249.7 | -       | -    | 75.3  | 61.7  | 28.3 | -      | -       | -      |
 | Orthus         | 7B     | 79.6 | 1265.8 | -       | -    | 63.2  | 52.8  | 28.2 | -      | -       | -      |
 | Liquid†        | 7B     | 81.1 | 1119.3 | -       | -    | 71.3* | 58.4* | -    | -      | 42.4    | -      |
 | D-DiT          | 2B     | 84.0 | 1124.7 | -       | -    | 60.1  | 59.2  | -    | -      | -       | -      |
@@ -138,12 +139,13 @@
 | ILLUME               | -      | -    | 0.99        | 0.86     | 0.45   | 0.71   | 0.39     | 0.28         | 0.61     |
 | Emu3-Gen             | 8B     | -    | 0.98        | 0.71     | 0.34   | 0.87   | 0.37     | 0.37         | 0.61     |
 | Transfusion          | -      | 256  | -           | -        | -      | -      | -        | -            | 0.63     |
-| D-DiT                | 2B     | -    | 0.97        | 0.80     |0.54    |0.76    | 0.32     | 0.50         | 0.65     |
+| D-DiT                | 2B     | -    | 0.97        | 0.80     | 0.54   | 0.76   | 0.32     | 0.50         | 0.65     |
 | Show-o               | 1.3B   | -    | 0.98        | 0.80     | 0.66   | 0.84   | 0.31     | 0.50         | 0.68     |
+| HermesFlow           | 1.3B   | -    | 0.98        | 0.84     | 0.66   | 0.82   | 0.32     | 0.52         | 0.69     |
 | Janus                | 1.3B   | -    | 0.97        | 0.68     | 0.30   | 0.84   | 0.46     | 0.42         | 0.61     |
 | JanusFlow            | 1.3B   | -    | 0.97        | 0.59     | 0.45   | 0.83   | 0.53     | 0.42         | 0.63     |
-| Janus                | 1.3B   | -    | 0.98        | 0.82     | 0.51   | 0.89   | 0.65     | 0.56         | 0.73     |
-| Janus                | 7B     | -    | 0.99        | 0.89     | 0.59   | 0.90   | 0.79     | 0.66         | 0.80     |
+| Janus-Pro            | 1.5B   | -    | 0.98        | 0.82     | 0.51   | 0.89   | 0.65     | 0.56         | 0.73     |
+| Janus-Pro            | 7B     | -    | 0.99        | 0.89     | 0.59   | 0.90   | 0.79     | 0.66         | 0.80     |
 
 ## Image Tokenizer
 
@@ -256,6 +258,7 @@
 | 24/09            | Emu3                | Emu3: Next-Token Prediction is All You Need                                                               | [arXiv](https://arxiv.org/abs/2409.18869)    |                                                                |
 | 24/12            | Liquid              | Liquid: Language Models are Scalable Multi-modal Generators                                               | [arXiv](https://arxiv.org/abs/2412.04332)    |                                                                |
 | 24/12            | SynerGen-VL         | SynerGen-VL: Towards Synergistic Image Understanding and Generation with Vision Experts and Token Folding | [arXiv](https://arxiv.org/abs/2412.09604)    |                                                                |
+| 25/02            | HermesFlow          | HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation                         | [arXiv](https://arxiv.org/abs/2502.12148)    | [GitHub]( https://github.com/Gen-Verse/HermesFlow)             |
 
 ### Semantic Encoders
 
