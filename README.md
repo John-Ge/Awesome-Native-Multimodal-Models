@@ -92,6 +92,7 @@
 | MetaQuery-XL   | 7B     | -    | 1685.2 | 83.5    | 76.9 | -     | -     | 58.6 | 66.6   | -       | -      |
 | VARGPT         | 7B     | 87.3 | 1488.8 | 67.6    | 67.9 | 78.4  | 62.3  | 36.4 | -      | 54.1    | -      |
 | VARGPT-v1.1    | 7B     | 89.1 | 1684.1 | 81.01   | 76.0 | 80.4  | 66.2  | 48.5 | -      | 82.0    | -      |
+| UniToken       | 7B     | -    | -      | 71.1    | 69.9 | -     | -     | 32.8 | -      | -       | 46.1   |
 
 ### MJHQ-30K
 
@@ -156,6 +157,8 @@
 | Janus-Pro            | 7B     | -    | 0.99        | 0.89     | 0.59   | 0.90   | 0.79     | 0.66         | 0.80     |
 | MetaQuery-XL         | 7B     | -    | -           | -        | -      | -      | -        | -            | 0.80     |
 | VARGPT-v1.1          | 7B     | -    | 0.96        | 0.53     | 0.48   | 0.83   | 0.13     | 0.21         | 0.53     |
+| UniToken             | 7B     | ---- | 0.99        | 0.80     | 0.35   | 0.84   | 0.38     | 0.39         | 0.63     |
+
 
 ## Image Tokenizer
 
@@ -349,6 +352,7 @@
 | 25/01            | Janus-Pro           | Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling                                     | [arxiv](https://arxiv.org/abs/2501.17811)     | [GitHub](https://github.com/deepseek-ai/Janus)    |
 | 25/03            | OmniMamba           | OmniMamba: Efficient and Unified Multimodal Understanding and Generation via State Space Models                            | [arxiv](https://arxiv.org/abs/2503.08686)     | [GitHub](https://github.com/hustvl/OmniMamba)     |
 | 25/04            | VARGPT-v1.1         | VARGPT-v1.1: Improve Visual Autoregressive Large Unified Model via Iterative Instruction Tuning and Reinforcement Learning | [arxiv](https://arxiv.org/abs/2504.02949)     | [GitHub](https://github.com/VARGPT-family/VARGPT) |
+| 25/04            | UniToken            | UniToken: Harmonizing Multimodal Understanding and Generation through Unified Visual Encoding                              | [arxiv](https://arxiv.org/abs/2504.04423)     | [GitHub](https://github.com/SxJyJay/UniToken)     |
 
 ## Continuous Image Modelling
 
